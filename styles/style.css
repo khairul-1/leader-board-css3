@@ -9,11 +9,12 @@ body{
     font-style: normal;
 }
 
-section{
+.container1{
     background-color:white;
     margin-left: 285px;
     margin-right: 285px;
     margin-top: 3px;
+    margin-bottom: 31px;
     padding: 30px;
 height: 679px;
 width: 870px;
@@ -23,7 +24,7 @@ border-radius: 5px;
 
 }
 
-/* top player  */
+/* top player  -------------------------------*/
 .top-player{
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -49,10 +50,9 @@ border-radius: 5px;
 hr{
     border: 1px solid #D1D1D1;
     margin-top: 30px;
-
 }
 
-/* blogs */
+/* blogs----------------------------------------- */
 
 .top-blog{
     display: grid;
@@ -76,4 +76,43 @@ hr{
 }
 span{
     color: #9F9F9F;
+}
+
+.container2{
+    background-color:white;
+    margin-left: 285px;
+    margin-right: 285px;
+    margin-top: 3px;
+    padding: 30px;
+    Width:870px;
+    Height:362px;    
+}
+.courses{
+    display: flex;
+    justify-content: space-around;
+}
+.course{
+    box-shadow: #9F9F9F;
+}
+.coursepic{
+    Width:224px;
+Height:104px;
+}
+.line3, .line4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.checked {
+    color: orange;
+  }
+.starmark-3{
+    background-color:#FFE4E8;
+    color: #FF4A60;
+    font-size: 13px;
+    border-radius: 14.69px;
+}
+.author2{
+    color:red;
+    margin-top: 0;
 }
